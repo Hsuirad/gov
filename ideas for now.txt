@@ -1,0 +1,34 @@
+HOUSEKEEPING (do first):
+- when updating the new file for new bills, first take the old file and turn into maybe just a single string and regex search for the new name to be added. maybe even learn some fast string search algorithm (two pointers??) for practice
+############################
+	example:
+	let text = readInData(cspan.json)
+
+	let addNew = []
+
+	if(!text.contains(newName)){
+		addNew.push(newName);
+	} else{
+		console.log(newName + " was here before");
+	}
+
+	writeData(addNew + text);
+############################
+
+- make a bottombar and homenav for each of the pages, stop linking back to billpage         *whats wrong with you*
+
+
+
+
+
+
+IDEAS:
+pieces to add: add interviews from somewhere idk, add house resolutions those are big important, *maybe add a pdf viewer in your thing but thats a bit much since you might need to download all the pdfs*, add latest supreme court and like investigations or something from somewhere, add top bills of the week (most viewed)
+
+sort options: latest action date, introduction date, most viewed????? (find a way to do this)
+
+filter options: filter for senator or representative, filter by house or senate, filter for cspan videos??????????, filter for interviews and shit maybe, filter for lots
+
+theres a problem where if you go into mobile view on inspect element the cspan video doesnt show up, try to see whats wrong there
+
+tie bills to sponsors on their pages, also have summaries for them or something
